@@ -1,0 +1,90 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  width: 1440px;
+}
+.container{
+  background-color: hsl(244, 38%, 16%);
+  height: 595px;
+  width: 1440px;
+
+  position: absolute;
+  margin: 140px 300px auto;
+
+
+
+}
+.inner-container{
+  height: 446px;
+  width: 350px;
+  padding: 100px;
+
+
+}
+h1{
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  position: relative;
+  width: 600px;
+}
+.insights{
+  color: hsl(277, 64%, 61%);
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  position: relative;
+  width: 500px;
+  font-size: 20px;
+}
+h3{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+
+}
+.comapanies{
+  display: inline-block;
+  position: relative;
+  left:0%;
+  width: 15px;
+
+}
+.templates{
+  display: inline-block;
+  position: relative;
+  Left: 50%;
+  width: 15px;
+}
+.queries{
+  display: inline-block;
+  position: relative;
+  Left: 100%;
+  width: 15px;
+}
+.stat_heading_companies{
+  font-family: 'Inter', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 20px;
+}
+.stat-heading-templates{
+  font-family: 'Inter', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 20px;
+}
+.stat-heading-queries{
+  font-family: 'Inter', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 20px;
+
+}
+.img{
+  float: right;
+  height: 595px;
+  filter: invert(0%) sepia(26%) saturate(915%) hue-rotate(222deg) brightness(97%) contrast(86%);
+}
